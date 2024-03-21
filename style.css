@@ -1,0 +1,15 @@
+.grid {
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+}
+
+body {
+    display: flex;
+    align-content: center;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+}
