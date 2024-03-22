@@ -2,12 +2,10 @@ const container = document.getElementById("containerID");//#container
 
 const btn = document.getElementById("buttonID");
 
-let numberGrid = 16;
-
 createGrid(16);
 
 btn.addEventListener("click", () => {
-    numberGrid = prompt("Enter size of grid");
+    let numberGrid = prompt("Enter size of grid");
     if(numberGrid > 100){
         numberGrid = 100;
     }
