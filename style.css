@@ -1,15 +1,16 @@
 .grid {
     background-color: aqua;
-    height: 100px;
-    width: 100px;
+    height: 30px;
+    width: 30px;
+    /* color: blueviolet; */
 }
 
-body {
+/* body {
     display: flex;
     align-content: center;
-}
+} */
 
 #container {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
 }
