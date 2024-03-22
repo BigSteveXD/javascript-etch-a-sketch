@@ -2,18 +2,15 @@
     background-color: aqua;
     height: 300px;
     width: 300px;
-    /* color: blueviolet; */
 }
 
 body {
     display: flex;
     flex-direction: row;
-    /* align-content: center; */
 }
 
 #containerID {
     display: flex;
-    /* align-items: center; */
     flex-wrap: wrap;
     flex-direction: row;
     gap: 10px;
