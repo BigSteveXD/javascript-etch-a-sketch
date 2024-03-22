@@ -1,5 +1,19 @@
 const container = document.getElementById("containerID");//#container
 
+const btn = document.getElementById("buttonID");
+btn.addEventListener("click", () => {
+    let input = prompt("Enter size of grid");
+    if(input > 100){
+        input = 100;
+    }
+
+    //for(let x=0; x<sdd; x++){
+
+    //}
+    container.removeChild("div");
+});
+
+
 const div = document.createElement("div");
 div.className = "grid";
 container.appendChild(div);
