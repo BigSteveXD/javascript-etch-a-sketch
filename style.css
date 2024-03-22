@@ -6,7 +6,8 @@
 
 body {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
 }
 
 #containerID {
@@ -14,6 +15,6 @@ body {
     flex-wrap: wrap;
     flex-direction: row;
     gap: 10px;
-    
+
     width: 960px;
 }
