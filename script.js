@@ -1,7 +1,5 @@
 const container = document.getElementById("containerID");//#container
 
-//console.log("TEST");
-
 const div = document.createElement("div");
 div.className = "grid";
 container.appendChild(div);
@@ -26,9 +24,6 @@ container.appendChild(div7);
 const div8 = document.createElement("div");
 div8.className = "grid";
 container.appendChild(div8);
-
-//console.log("TEST");
-
 const div9 = document.createElement("div");
 div9.className = "grid";
 container.appendChild(div9);
@@ -54,40 +49,139 @@ const div16 = document.createElement("div");
 div16.className = "grid";
 container.appendChild(div16);
 
-//console.log("TEST");
-
 // div.style.color = "blue";
 // div2.style.color = "blue";
-// div3.style.color = "blue";
-// div4.style.color = "blue";
-// div5.style.color = "blue";
-// div6.style.color = "blue";
-// div7.style.color = "blue";
-// div8.style.color = "blue";
-// div9.style.color = "blue";
-// div10.style.color = "blue";
-// div11.style.color = "blue";
-// div12.style.color = "blue";
-// div13.style.color = "blue";
-// div14.style.color = "blue";
-// div15.style.color = "blue";
-// div16.style.color = "blue";
 
 // div.classList.add("grid");
 // div2.classList.add("grid");
-// div3.classList.add("grid");
-// div4.classList.add("grid");
-// div5.classList.add("grid");
-// div6.classList.add("grid");
-// div7.classList.add("grid");
-// div8.classList.add("grid");
-// div9.classList.add("grid");
-// div10.classList.add("grid");
-// div11.classList.add("grid");
-// div12.classList.add("grid");
-// div13.classList.add("grid");
-// div14.classList.add("grid");
-// div15.classList.add("grid");
-// div16.classList.add("grid");
+
+div.addEventListener("mouseover", () => {
+    //document.get
+    div.style.backgroundColor = "red";
+});
+div2.addEventListener("mouseover", () => {
+    //document.get
+    div2.style.backgroundColor = "red";
+});
+div3.addEventListener("mouseover", () => {
+    //document.get
+    div3.style.backgroundColor = "red";
+});
+div4.addEventListener("mouseover", () => {
+    //document.get
+    div4.style.backgroundColor = "red";
+});
+div5.addEventListener("mouseover", () => {
+    //document.get
+    div5.style.backgroundColor = "red";
+});
+div6.addEventListener("mouseover", () => {
+    //document.get
+    div6.style.backgroundColor = "red";
+});
+div7.addEventListener("mouseover", () => {
+    //document.get
+    div7.style.backgroundColor = "red";
+});
+div8.addEventListener("mouseover", () => {
+    //document.get
+    div8.style.backgroundColor = "red";
+});
+div9.addEventListener("mouseover", () => {
+    //document.get
+    div9.style.backgroundColor = "red";
+});
+div10.addEventListener("mouseover", () => {
+    //document.get
+    div10.style.backgroundColor = "red";
+});
+div11.addEventListener("mouseover", () => {
+    //document.get
+    div11.style.backgroundColor = "red";
+});
+div12.addEventListener("mouseover", () => {
+    //document.get
+    div12.style.backgroundColor = "red";
+});
+div13.addEventListener("mouseover", () => {
+    //document.get
+    div13.style.backgroundColor = "red";
+});
+div14.addEventListener("mouseover", () => {
+    //document.get
+    div14.style.backgroundColor = "red";
+});
+div15.addEventListener("mouseover", () => {
+    //document.get
+    div15.style.backgroundColor = "red";
+});
+div16.addEventListener("mouseover", () => {
+    //document.get
+    div16.style.backgroundColor = "red";
+});
 
 
+div.addEventListener("mouseout", () => {
+    //document.get
+    div.style.backgroundColor = "aqua";
+});
+div2.addEventListener("mouseout", () => {
+    //document.get
+    div2.style.backgroundColor = "aqua";
+});
+div3.addEventListener("mouseout", () => {
+    //document.get
+    div3.style.backgroundColor = "aqua";
+});
+div4.addEventListener("mouseout", () => {
+    //document.get
+    div4.style.backgroundColor = "aqua";
+});
+div5.addEventListener("mouseout", () => {
+    //document.get
+    div5.style.backgroundColor = "aqua";
+});
+div6.addEventListener("mouseout", () => {
+    //document.get
+    div6.style.backgroundColor = "aqua";
+});
+div7.addEventListener("mouseout", () => {
+    //document.get
+    div7.style.backgroundColor = "aqua";
+});
+div8.addEventListener("mouseout", () => {
+    //document.get
+    div8.style.backgroundColor = "aqua";
+});
+div9.addEventListener("mouseout", () => {
+    //document.get
+    div9.style.backgroundColor = "aqua";
+});
+div10.addEventListener("mouseout", () => {
+    //document.get
+    div10.style.backgroundColor = "aqua";
+});
+div11.addEventListener("mouseout", () => {
+    //document.get
+    div11.style.backgroundColor = "aqua";
+});
+div12.addEventListener("mouseout", () => {
+    //document.get
+    div12.style.backgroundColor = "aqua";
+});
+div13.addEventListener("mouseout", () => {
+    //document.get
+    div13.style.backgroundColor = "aqua";
+});
+div14.addEventListener("mouseout", () => {
+    //document.get
+    div14.style.backgroundColor = "aqua";
+});
+div15.addEventListener("mouseout", () => {
+    //document.get
+    div15.style.backgroundColor = "aqua";
+});
+div16.addEventListener("mouseout", () => {
+    //document.get
+    div16.style.backgroundColor = "aqua";
+});
