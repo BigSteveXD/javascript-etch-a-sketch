@@ -12,7 +12,7 @@ btn.addEventListener("click", () => {
         numberGrid = 100;
     }
 
-    //removeGrid(input)
+    removeGrid();
 
     createGrid(numberGrid);
 });
@@ -33,7 +33,11 @@ function createGrid(num){
     }
 }
 
-
+function removeGrid(){
+    while(container.firstChild){
+        container.removeChild(container.firstChild);
+    }
+}
 
 /*
 const div = document.createElement("div");
