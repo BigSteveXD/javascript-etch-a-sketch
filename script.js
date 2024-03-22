@@ -1,5 +1,7 @@
 const container = document.getElementById("containerID");//#container
 
+//console.log("TEST");
+
 const div = document.createElement("div");
 div.className = "grid";
 container.appendChild(div);
@@ -24,6 +26,9 @@ container.appendChild(div7);
 const div8 = document.createElement("div");
 div8.className = "grid";
 container.appendChild(div8);
+
+//console.log("TEST");
+
 const div9 = document.createElement("div");
 div9.className = "grid";
 container.appendChild(div9);
@@ -48,6 +53,8 @@ container.appendChild(div15);
 const div16 = document.createElement("div");
 div16.className = "grid";
 container.appendChild(div16);
+
+//console.log("TEST");
 
 // div.style.color = "blue";
 // div2.style.color = "blue";
