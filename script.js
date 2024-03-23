@@ -2,6 +2,8 @@ const container = document.getElementById("containerID");//#container
 
 const btn = document.getElementById("buttonID");
 
+//const gridClass = document.getSelection(".grid");
+
 createGrid(16);
 
 btn.addEventListener("click", () => {
@@ -18,6 +20,14 @@ btn.addEventListener("click", () => {
 function createGrid(num){
     for(let x=0; x<num; x++){
         const div = document.createElement("div");
+
+        //div.style.grid.
+        //(960 - ((num - 1) * 20)) / num;
+        const squareRow = Math.ceil(Math.sqrt(num));
+        const squareSize = 960 / squareRow;
+        div.style.height = "${squareSize}px";
+        div.style.width = "${squareSize}px";
+
         div.className = "grid";
         div.addEventListener("mouseover", () => {
             //document.get
