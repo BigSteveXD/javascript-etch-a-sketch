@@ -1,7 +1,9 @@
 .grid {
     background-color: aqua;
-    height: 300px;
-    width: 300px;
+    /* 300 / 960 */
+
+    flex-grow: 1;
+    flex-shrink: 0;
 }
 
 body {
@@ -12,9 +14,11 @@ body {
 
 #containerID {
     display: flex;
+    /* flex-direction: row; */
     flex-wrap: wrap;
-    flex-direction: row;
     gap: 10px;
-
     width: 960px;
+    height: 960px;
+
+    background-color: orange;
 }
