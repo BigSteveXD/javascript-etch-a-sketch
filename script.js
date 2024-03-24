@@ -18,17 +18,22 @@ btn.addEventListener("click", () => {
 });
 
 function createGrid(num){
+        const containerWidth = container.clientWidth;
+        //const squaresPerRow = containerWidth / num; //Math.ceil(Math.sqrt(num));
+        const squareSize = containerWidth / num;//containerWidth / squaresPerRow;
+
     for(let x=0; x<num; x++){
         const div = document.createElement("div");
-
+        div.className = "grid";
         //div.style.grid.
         //(960 - ((num - 1) * 20)) / num;
-        const squareRow = Math.ceil(Math.sqrt(num));
-        const squareSize = 960 / squareRow;
-        div.style.height = "${squareSize}px";
-        div.style.width = "${squareSize}px";
+        
+        // div.style.width = "${squareSize}px";
+        // div.style.height = "${squareSize}px";
 
-        div.className = "grid";
+        div.style.width = squareSize;
+        div.style.height = squareSize;
+
         div.addEventListener("mouseover", () => {
             //document.get
             div.style.backgroundColor = "red";
