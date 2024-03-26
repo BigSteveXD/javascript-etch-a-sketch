@@ -1,8 +1,5 @@
-const container = document.getElementById("containerID");//#container
-
+const container = document.getElementById("containerID");
 const btn = document.getElementById("buttonID");
-
-//const gridClass = document.getSelection(".grid");
 
 createGrid(16);
 
@@ -11,38 +8,31 @@ btn.addEventListener("click", () => {
     if(numberGrid > 100){
         numberGrid = 100;
     }
-
     removeGrid();
-
     createGrid(numberGrid);
 });
 
 function createGrid(num){
-        const containerWidth = container.clientWidth;
-        //const squaresPerRow = containerWidth / num; //Math.ceil(Math.sqrt(num));
-        const squareSize = containerWidth / num;//containerWidth / squaresPerRow;
+        const squareSize = Math.ceil(container.offsetWidth / num);
+        console.log(squareSize);
 
     for(let x=0; x<num; x++){
-        const div = document.createElement("div");
-        div.className = "grid";
-        //div.style.grid.
-        //(960 - ((num - 1) * 20)) / num;
+        for(let y=0; y<num; y++){
+            const div = document.createElement("div");
+            div.className = "grid";
         
-        // div.style.width = "${squareSize}px";
-        // div.style.height = "${squareSize}px";
+            div.style.width = `${squareSize}px`;//`${squareSize-2}px`
+            div.style.height = `${squareSize}px`;
 
-        div.style.width = squareSize;
-        div.style.height = squareSize;
-
-        div.addEventListener("mouseover", () => {
-            //document.get
-            div.style.backgroundColor = "red";
-        });
-        div.addEventListener("mouseout", () => {
-            //document.get
-            div.style.backgroundColor = "aqua";
-        });
-        container.appendChild(div);
+            div.addEventListener("mouseover", () => {
+                div.style.backgroundColor = "red";
+            });
+            div.addEventListener("mouseout", () => {
+                div.style.backgroundColor = "aqua";
+            });
+            
+            container.appendChild(div);
+        }
     }
 }
 
