@@ -13,7 +13,7 @@ btn.addEventListener("click", () => {
 });
 
 function createGrid(num){
-        const squareSize = Math.ceil(container.offsetWidth / num);
+        const squareSize = Math.ceil(container.offsetWidth / num);//Math.ceil //Math.floor
         console.log(squareSize);
 
     for(let x=0; x<num; x++){
@@ -27,9 +27,9 @@ function createGrid(num){
             div.addEventListener("mouseover", () => {
                 div.style.backgroundColor = "red";
             });
-            div.addEventListener("mouseout", () => {
-                div.style.backgroundColor = "aqua";
-            });
+            //div.addEventListener("mouseout", () => {
+                //div.style.backgroundColor = "aqua";
+            //});
             
             container.appendChild(div);
         }
