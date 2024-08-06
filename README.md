@@ -1,1 +1,1 @@
-Draw an image on a grid of squares. Canvass size is adjustable
+Draw a picture on a grid of squares by changing them from blue to red. Canvass size is adjustable
